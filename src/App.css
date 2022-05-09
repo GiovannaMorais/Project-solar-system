@@ -1,3 +1,91 @@
 .App {
   text-align: center;
 }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(/home/giovanna/sd-021-a-project-solar-system/src/images/background.png);
+  text-align: center;
+}
+
+.planet{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.solarSystem{
+display: flex;
+justify-content: space-evenly;
+min-width: 25%;
+width: 100%;
+/* margin: 10px; */
+align-content: center;
+}
+img{
+  width:230px
+}
+h1{
+  color: white;
+  font-size:4em;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-indent: 4rem;
+  text-align: center;
+  text-shadow: 5px 5px 10px gray;
+  letter-spacing: 0.5rem;
+  padding-bottom: 10px;
+}
+h2{
+  color: rgb(160, 13, 223);
+  font-size:3em;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-indent: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(159, 71, 157);
+  text-align: center;
+  padding: 10px;
+}
+p{
+  color: white;
+  font-size:1em;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  text-indent: 4rem;
+  text-align: center;
+  text-shadow: 5px 5px 10px gray;
+  text-align: center;
+}
+.planet:hover{
+  position: relative;
+  transform: scale(1.5); 
+  
+}
+.missoes{
+  display: flex;
+  flex-wrap: wrap;
+ margin: 10px 10px;
+ display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.missioncard{
+  border: 1px solid #ccc;
+  min-width: 24%;
+   text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-rendering: center;
+
+}
